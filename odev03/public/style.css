@@ -1,0 +1,49 @@
+html, body {
+    margin: 0px;
+    background-color: rgb(243, 227, 227);
+    color: rgb(82, 59, 48);
+    text-align: center;
+    font-size: 1.2em;
+}
+.kart{
+    margin: 20px;
+    height: 300px;
+    border: 2px;
+    color: blue;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mesaj{
+    background-color: green;
+    color: black;
+}
+.link{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex; /* yatay veya dikeyde hizalama icin */
+    flex-direction: column; /* yukaridan asagiya hizalama */
+    align-content: center; /* satirlari birbirinden ayirmak icin */
+    align-items: center; /* icindeki elemanlari dikeyde, yani y ekseninde hizalar. */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%; /* Burayi hemen yazma asagidakileri yazdiktan sonra tanimla*/
+    align-items: center;
+}
+.heading {
+    font-size: 4em; /* responsive tasarimlar icin em ve rem degerler kullaniliyor. */
+}
+#kart0,
+#kart1,
+#kart2{
+    height: 280px;
+    width: 230px;
+    padding: 40px;
+}
